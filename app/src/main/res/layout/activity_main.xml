@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#01BAEF"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#01BAEF"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/bricks"
+                    android:layout_marginBottom="22dp"/>
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English for Kids"
+                    android:textColor="#FDFFFC"
+                    android:gravity="center"
+                    android:textSize="32sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn English Step by Step"
+                    android:textStyle="italic"
+                    android:textColor="#d3e6e8e5"
+                    android:layout_marginBottom="60dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <android.support.v7.widget.CardView
+                        style="@style/cardView_All"
+                        android:id="@+id/colorsCard"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="6dp">
+                        <LinearLayout
+                            style="@style/linearCardView">
+                            <LinearLayout
+                                android:id="@+id/circleColors"
+                                style="@style/circleLinear"/>
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:src="@mipmap/ic_colors"/>
+                            <TextView
+                                style="@style/categoryTextView"
+                                android:text="@string/colors"/>
+                            <View
+                                style="@style/viewCard"/>
+                            <TextView
+                                style="@style/subTitleTextView"
+                                android:text="Check colors"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/numbersCard"
+                        style="@style/cardView_All"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="6dp">
+                        <LinearLayout
+                            style="@style/linearCardView">
+                            <LinearLayout
+                                android:id="@+id/circleNumbers"
+                                style="@style/circleLinear"/>
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:src="@mipmap/ic_numbers"/>
+                            <TextView
+                                style="@style/categoryTextView"
+                                android:text="@string/numbers"/>
+                            <View
+                                style="@style/viewCard"/>
+                            <TextView
+                                style="@style/subTitleTextView"
+                                android:text="Check Numbers"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <android.support.v7.widget.CardView
+                        style="@style/cardView_All"
+                        android:id="@+id/familyCard"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="6dp">
+                        <LinearLayout
+                            style="@style/linearCardView">
+                            <LinearLayout
+                                android:id="@+id/circleFood"
+                                style="@style/circleLinear"/>
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:src="@mipmap/ic_food"/>
+                            <TextView
+                                style="@style/categoryTextView"
+                                android:text="@string/food"/>
+                            <View
+                                style="@style/viewCard"/>
+                            <TextView
+                                style="@style/subTitleTextView"
+                                android:text="Check Food "/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/petsCard"
+                        style="@style/cardView_All"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="6dp">
+                        <LinearLayout
+                            style="@style/linearCardView">
+                            <LinearLayout
+                                android:id="@+id/circleAnimals"
+                                style="@style/circleLinear"/>
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:src="@mipmap/ic_purple"/>
+                            <TextView
+                                style="@style/categoryTextView"
+                                android:text="@string/pets"/>
+                            <View
+                                style="@style/viewCard"/>
+                            <TextView
+                                style="@style/subTitleTextView"
+                                android:text="Check Pets"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/randomCard"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+                    <LinearLayout
+                        style="@style/linearCardView">
+                        <LinearLayout
+                            android:id="@+id/circleRandom"
+                            style="@style/circleLinear"/>
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/random"/>
+                        <TextView
+                            style="@style/categoryTextView"
+                            android:text="@string/Random"/>
+                        <View
+                            style="@style/viewCard"/>
+                        <TextView
+                            style="@style/subTitleTextView"
+                            android:text="Check Random Questions"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

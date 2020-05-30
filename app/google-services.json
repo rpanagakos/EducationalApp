@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "224540231947",
+    "firebase_url": "https://educationalapp-ba95f.firebaseio.com",
+    "project_id": "educationalapp-ba95f",
+    "storage_bucket": "educationalapp-ba95f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224540231947:android:5de5b2b1f858654f",
+        "android_client_info": {
+          "package_name": "com.example.user.uniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224540231947-fhggbuebvnsf8afb9nng8fs2eg2i3b17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.uniapp",
+            "certificate_hash": "ccde342cd0070e73570f8b7e6599fc680e46c2bb"
+          }
+        },
+        {
+          "client_id": "224540231947-mq2pcb5961ulonputar68dubjmmomuc5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "224540231947-mq2pcb5961ulonputar68dubjmmomuc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABIqDxTBV7sPD-sgLyD3KTLHtXdCXHIwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224540231947-mq2pcb5961ulonputar68dubjmmomuc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

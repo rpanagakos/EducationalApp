@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Kid\'s English</string>
+    <string name="title"></string>
+    <string name="subTitle"></string>
+    <string name="pets">Animals</string>
+    <string name="subPets"></string>
+    <string name="food">Food</string>
+    <string name="subFamily"></string>
+    <string name="colors">Colors</string>
+    <string name="subColors"></string>
+    <string name="numbers">Numbers</string>
+    <string name="subNumbers"></string>
+    <string name="theory">Theory</string>
+    <string name="quiz">Quiz</string>
+    <string name="Random">Random</string>
+
+    <!-- All elements of the lists -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">One</string>
+    <string name="Two">Two</string>
+    <string name="Three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="nine">Nine</string>
+    <string name="ten">Ten</string>
+    <string name="bread">Bread</string>
+    <string name="cheese">Cheese</string>
+    <string name="tomato">Tomato</string>
+    <string name="mushroom">Mushroom</string>
+    <string name="pumkin">Pumkin</string>
+    <string name="carrot">Carrot</string>
+    <string name="fries">French Fries</string>
+    <string name="pizza">Pizza</string>
+    <string name="cookies">Cookies</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="orange">Orange</string>
+    <string name="brown">Brown</string>
+    <string name="yellow">Yellow</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="chicken">Chicken</string>
+    <string name="cow">Cow</string>
+    <string name="pig">Pig</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="turtle">Turtle</string>
+    <string name="insect">Insect</string>
+    <string name="sheep">Sheep</string>
+    <string name="monkey">Monkey</string>
+    <string name="submit">Submit</string>
+
+    <!-- Questions of food category -->
+    <string name="fFQ">Με ποιό απο τα παρακάτω υλικά φτιάχνουμε τόστ;</string>
+    <string name="sFQ">Τι προτιμάνε να τρώνε τα ποντίκια;</string>
+    <string name="tFQ">Το μαζεύουν οι μέλισσες και το τρώνε οι αρκούδες:</string>
+    <string name="foFQ">Τα στρουμφάκια μένουν μέσα σε αυτά:</string>
+    <string name="fiFQ">Τι αρέσει στους λαγούς να τρώνε;</string>
+    <string name="siFQ">Τις χρησιμοποιούμε στο Halloween για να φτιάξουμε προσωπάκια:</string>
+    <string name="seFQ">Είναι στρογγυλή και βάζουμε ότι υλικά θέλουμε πάνω της:</string>
+    <string name="eFQ">Με τι συνοδεύεται συνήθως ένα μπέργκερ;</string>
+    <string name="nFQ">Τα βουτάμε στο γάλα και έχουν κομμάτια σοκολάτας:</string>
+    <string name="teFQ">Είναι στρογγυλή, κόκκινη και συνήθως η μαμά την βάζει στα μακαρόνια:</string>
+    <string name="honey">Honey</string>
+
+    <!-- Questions of animal category-->
+    <string name="fAQ">Είναι ρόζ και του αρέσει να εξερευνά την λάσπη:</string>
+    <string name="sAQ">Σε ποιο χνουδωτό ζώο αρέσουν τα καρότα;</string>
+    <string name="tAQ">Χρησιμοποιούμε το μαλλί του για να φτιάξουμε ρουχα:</string>
+    <string name="foAQ">Ποίο ζώο έχει δύο πόδια και γεννάει κοτοπουλάκια;</string>
+    <string name="fiAQ">Ποιό ζώο κουβαλάει το σπίτι του όπου και αν πάει;</string>
+    <string name="siAQ">Πετάει από φύλλο σε φύλλο και είναι μικρό:</string>
+    <string name="seAQ">Τι κάνει "μιάου μιάου";</string>
+    <string name="eAQ">Μας δίνει γάλα και κάνει "μουυ"</string>
+    <string name="nAQ">Τετράποδο ζώο που γαβγίζει:</string>
+    <string name="teAQ">Πηδάει απο κλαδί σε κλαδί και τρώει μπανάνες:</string>
+    <string name="hintLightGreen">Αν εμφανιστεί το δίπλα συμβολο σημαίνει οτι απαντήσατε σωστά στις περισσότερες ερωτήσεις.</string>
+    <string name="hintGreen">Αν εμφανιστεί το δίπλα συμβολο σημαίνει οτι απαντήσατε άριστα στην συγκεκριμένη ενότητα.</string>
+    <string name="hintRed">Αν εμφανιστεί το δίπλα συμβολο σημαίνει οτι απαντήσατε λάθος στις περισσότερες ερωτήσεις.</string>
+    <string name="hintInvisible">Αν εμφανιστεί το δίπλα συμβολο σημαίνει οτι δεν έχετε ξεκινήσει την ενότητα.</string>
+    <string name="thirdBullet">Για την διευκόλυνση των μαθητών μπορούν να βλέπουν την θεωρία κατα την διάρκεια των ερωτήσεων.</string>
+    <string name="secondBullet">Καλό θα ήταν ο μαθητής να ξεκινήσει πρώτα με την θεωρία και μετά με τις ερωτήσεις. </string>
+    <string name="firstBullet">Κάθε ενότητα περιέχει δύο κατηγορίες, την θεωρία(Theory)και τις ερωτήσεις κατανόησης(Quiz). </string>
+    <string name="total_score">Total Score :</string>
+    <string name="syntaxError">Συντακτικό Λάθος</string>
+    <string name="random">Random</string>
+    <string name="are_you_ready">Are you ready?</string>
+</resources>

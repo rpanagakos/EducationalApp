@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AnimalQuizFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/are_you_ready"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#b9000000"
+                android:layout_margin="6dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/happy_monkey"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#b9000000"
+                android:layout_marginBottom="6dp"/>
+
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/fAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/pigans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns1"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns1"
+                                style="@style/radioButtons"
+                                android:text="@string/pig"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/turtle"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/dog"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult1"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/sAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/carrotans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns2"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/insect"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/chicken"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns2"
+                                style="@style/radioButtons"
+                                android:text="@string/rabbit"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/cat"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult2"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/tAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/sheepans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns3"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/cow"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/dog"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/cat"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns3"
+                                style="@style/radioButtons"
+                                android:text="@string/sheep"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult3"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/foAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/chick"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns4"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/insect"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns4"
+                                style="@style/radioButtons"
+                                android:text="@string/chicken"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/rabbit"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult4"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/fiAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/turtleans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns5"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/insect"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns5"
+                                style="@style/radioButtons"
+                                android:text="@string/turtle"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/sheep"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult5"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/siAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/insectans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns6"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns6"
+                                style="@style/radioButtons"
+                                android:text="@string/insect"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/pig"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/rabbit"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult6"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/seAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/catans"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns7"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/dog"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/rabbit"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/chicken"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns7"
+                                style="@style/radioButtons"
+                                android:text="@string/cat"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult7"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/eAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/moo"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns8"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/pig"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/rabbit"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns8"
+                                style="@style/radioButtons"
+                                android:text="@string/cow"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/turtle"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult8"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/nAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/doghouse"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns9"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/sheep"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/cow"/>
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns9"
+                                style="@style/radioButtons"
+                                android:text="@string/dog"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult9"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                style="@style/cardViewQuiz"
+                android:backgroundTint="@color/animalsQuiz"
+                app:cardCornerRadius="6dp">
+                <LinearLayout
+                    style="@style/firstCardLinearQuiz">
+
+                    <TextView
+                        style="@style/questionTextView"
+                        android:text="@string/teAQ"/>
+
+                    <LinearLayout
+                        style="@style/linearRadioButtons">
+
+                        <ImageView
+                            style="@style/quizImage"
+                            android:src="@drawable/monkeyeat"/>
+
+                        <RadioGroup
+                            android:id="@+id/animalRadioAns10"
+                            style="@style/radioGroup">
+                            <RadioButton
+                                android:id="@+id/aRadionButtonAns10"
+                                style="@style/radioButtons"
+                                android:text="@string/monkey"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/sheep"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/pig"/>
+                            <RadioButton
+                                style="@style/radioButtons"
+                                android:text="@string/insect"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/animalResult10"
+                        style="@style/textViewResult"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/submitButtonAnimals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:background="@color/animals"
+                android:textSize="18sp"
+                android:layout_margin="16dp"
+                android:padding="8dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01BAEF</color>
+    <color name="colorPrimaryDark">#111738</color>
+    <color name="colorAccent">#a20d0d0d</color>
+    <color name="lightgray">#ededed</color>
+    <color name="food">#FF7F16</color>
+    <color name="animals">#603A1F</color>
+    <color name="colors">#841C26</color>
+    <color name="foodQuiz">#FE7F2D</color>
+    <color name="numberQuiz">#70A817</color>
+    <color name="colorQuiz">#BF2B3A</color>
+    <color name="animalsQuiz">#512404</color>
+    <color name="animalWrong">#99C9BB</color>
+    <color name="correctFood">#F5EE9E</color>
+    <color name="foodWrong">#B4EBCA</color>
+    <color name="correctSection">#09A129</color>
+    <color name="littlePractice">#27FB6B</color>
+    <color name="morePractice">#E9190F</color>
+    <color name="white">#fff</color>
+</resources>
